@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    width:30px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+}   
+
+.nav{
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    height: 80px;
+    width: 338px;
+    position: relative;
+    bottom: 10px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+    left: 112px;
+    font-size: 12px;
+    top: 2px;
+}
+a{
+    color: black;
+}
+
+.main:hover{
+    transition: all 0.7s;
+    color: red;
+    text-shadow: 2px 3px 10px red;
+}
+.contact:hover{
+    transition: all 0.7s;
+    color: red;
+    text-shadow: 2px 3px 10px red;
+}
+.nomzodlar:hover{
+    transition: all 0.7s;
+    color: red;
+    text-shadow: 2px 3px 10px red;
+}
+a:hover{
+    color: red;
+    transition: all 0.7s;
+}

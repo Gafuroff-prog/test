@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    width:30px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+}   
+.nav{
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    height: 80px;
+    width: 338px;
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    right: 10px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+    left: 70px;
+    font-size: 12px;
+}
+a{
+    color: black;
+}
+
+.main:hover{
+    transition: all 0.7s;
+    color: red;
+    text-shadow: 2px 3px 10px red;
+}
+.contact:hover{
+    transition: all 0.7s;
+    color: red;
+    text-shadow: 2px 3px 10px red;
+}
+.nomzodlar:hover{
+    transition: all 0.7s;
+    color: red;
+    text-shadow: 2px 3px 10px red;
+}
+a:hover{
+    color: red;
+    transition: all 0.7s;
+}
+.contacts{
+    position: relative;
+    font-weight: 300;
+    right: 520px;
+    font-size: 37px;
+    text-align: center;
+}
+.insta{
+    position: relative;
+    left: 85px;
+    width: 100px;
+    height: 100px;
+    bottom: 10px;
+}
+.tg{
+    position: relative;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    top: 130px;
+}
+.call{
+    position: relative;
+    top: 280px;
+    width: 130px;
+    height: 130px;
+    right: 142px;
+}
+.footer{
+    border: 1px solid gainsboro;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+    right:8px;
+    width: 338px;
+    height: 80px;
+    
+}
+footer ul{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    position: relative;
+    font-size: 12px;
+    left: 70px;
+}
